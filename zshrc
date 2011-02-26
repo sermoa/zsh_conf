@@ -12,11 +12,6 @@ source ~/.zsh/func/bashmarks.sh
 
 PATH=~/Developer/bin:/Users/ecomba/Developer/sbin:/usr/local/bin:/usr/local/sbin:$PATH
 
-hitch() {
-  command hitch "$@"
-  if [[ -s "$HOME/.hitch_export_authors" ]] ; then source "$HOME/.hitch_export_authors" ; fi
-}
-
 CLASSPATH=$CLASSPATH:/usr/local/Cellar/clojure/1.2.0/clojure.jar:/usr/local/Cellar/clojure-contrib/1.2.0/clojure-contrib.jar
 
 export TERM='xterm-color'
