@@ -57,3 +57,4 @@ alias unhitch='hitch -u'
 # Uncomment to persist pair info between terminal instances
 # hitch
 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
